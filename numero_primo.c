@@ -7,4 +7,10 @@ main(){
     int num;
     printf("Introduce un numero -> ");
     scanf("%d", &num);
+
+    if (num == 0 || num == 1)
+    {
+        printf("%d no es un numero primo.\n", num);
+    }
+    
 }
